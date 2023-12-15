@@ -1,5 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#content {
+    flex: 1 0 auto;
 }
 
 header {
@@ -26,6 +33,7 @@ footer {
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 footer a {
