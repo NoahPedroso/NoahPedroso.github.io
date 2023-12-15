@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+article {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #333; /* Change the color to match your design */
+    margin-right: 20px; /* Add some space between the icons */
+}
+
+footer a:hover {
+    color: #007BFF; /* Change the color on hover */
+}
+
+footer i {
+    font-size: 24px; /* Make the icons larger */
+}
