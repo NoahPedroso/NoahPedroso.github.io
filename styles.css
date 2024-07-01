@@ -1,4 +1,7 @@
 body {
+    height: 100%;
+    margin-left: 10rem;
+    padding: 0px 10px;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,8 +19,8 @@ header {
 }
 
 h2 a {
-    color: #333;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
 }
 
 h2 a:hover {
@@ -48,3 +51,29 @@ footer a:hover {
 footer i {
     font-size: 24px; /* Make the icons larger */
 }
+
+/* The sidebar menu */
+.sidenav {
+    height: 100vh;
+    width: 10rem;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #808080;
+    display: block;
+  }
+  
+  /* hover color */
+  .sidenav a:hover {
+    color: white;
+  }

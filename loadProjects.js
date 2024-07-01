@@ -2,7 +2,7 @@ async function loadProjects() {
     const projectsContainer = document.querySelector('#projects');
 
     // List of project files
-    const projectFiles = ['ElectionSimulator.html', /* add more files as needed */];
+    const projectFiles = ['ElectionSimulator.html'/* add more files as needed */];
 
     for (const file of projectFiles) {
         const response = await fetch(`Projects/${file}`);
