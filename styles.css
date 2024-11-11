@@ -76,4 +76,13 @@ footer i {
   /* hover color */
   .sidenav a:hover {
     color: white;
-  }
+}
+
+#experience li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    list-style-type: none;
+}
