@@ -86,7 +86,6 @@ footer i {
     background-color: #f9f9f9;
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
 }
 
 #experience li img {
@@ -95,10 +94,8 @@ footer i {
     border-radius: 10px;
     border: 2px solid black;
     margin-right: 1em;
-    flex: 0 0 auto;
 }
 
 #experience li .content {
-    flex: 1 1 100%;
-    margin-top: 1em;
+    flex: 1;
 }
